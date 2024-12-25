@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" class="bg-zinc-950">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>WebSocket Local Server Dashboard</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+  <h1 class="text-center text-4xl font-semibold mt-16 text-zinc-200">WebSocket Local Server Dashboard</h1>
+  <div class="grid h-100 w-100 bg-black backdrop-blur-s rounded-xl border border-white/0 mx-10 mt-20 p-5 grid-cols-2 mb-20">
+    <div class="grid grid-rows-3">
+      <div>
+        <button id="websocket-start-btn" class="bg-blue-700 px-5 py-2 rounded-lg hover:px-6 transition-all">Start WebSocket</button>
+      </div>
+      <div class="row-span-2">
+        <p>WebSocket Status: </p>
+        <div id="websocket-status" class="text-gray-400">No Status Data</div>
+        <br>
+        <p>Renewal In: </p>
+        <div class="text-gray-400">--:--:--</div>
+        <br>
+        <p>Messages: </p>
+        <div id="ws-div-msg" class="text-gray-400">-</div>
+      </div>
+    </div>
+    <div class="justify-items-center">
+    <img id="ws-div-qr" alt="QR Code">
+    </div>
+  </div>
+<!--   <input type="text" id="qr-input" placeholder="Enter text for QR code">
+  <button id="generate-btn">Generate QR Code</button>
+  <img id="qr-code" alt="QR Code will appear here"> -->
+  <script src="../js/renderer.js"></script>
+</body>
+</html>
