@@ -1,7 +1,7 @@
 # ⚙ WebSocket Local Server Host Software
 This is a Windows Software made to host a local WebSocket Server and receive messages/files from other devices.   
 
-![image](https://github.com/user-attachments/assets/a9d36576-2960-470c-8b16-58ace495eea6)
+![image](https://github.com/user-attachments/assets/819051b7-797b-421c-b177-c1acd89a4c98)
 
 
 ### 📜 How to run
